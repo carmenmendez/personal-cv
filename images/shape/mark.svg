@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="61px" height="61px" viewBox="0 0 61 61" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>shape/mark</title>
+    <defs>
+        <filter color-interpolation-filters="auto" id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.886275 0 0 0 0 0.886275 0 0 0 0 0.886275 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="shape/mark" transform="translate(-284.000000, -220.000000)" filter="url(#filter-1)">
+            <g transform="translate(288.337049, 224.337049)">
+                <line x1="0" y1="1.13686838e-13" x2="52.3259018" y2="52.3259018" id="Line" stroke="#979797" stroke-width="8"></line>
+                <line x1="0" y1="52.3259018" x2="52.3259018" y2="0" id="Line-Copy" stroke="#979797" stroke-width="8"></line>
+            </g>
+        </g>
+    </g>
+</svg>
