@@ -46,7 +46,7 @@ h2 {
 }
 
 h3 {
-    color: rgb(174, 174, 174);
+    color: rgb(140, 140, 140);
     font-size: 18px;
     font-weight: 700;
     margin-bottom: 25px;
@@ -112,11 +112,18 @@ footer {
 }
 
 .illustration-wrapper {
-    width: 372px;
-    height: 372px;
-    position: absolute;
-    right: 170px;
-    bottom: -210px;
+    display: none;
+}
+
+@media screen and (min-width: 760px) { 
+    .illustration-wrapper {
+        display: block;
+        width: 372px;
+        height: 372px;
+        position: absolute;
+        left: 200px;
+        bottom: -250px;
+    }    
 }
 
 .hand {
@@ -147,6 +154,17 @@ footer {
     fill: #F7F7F7;
 }
 
-@media screen and (min-width: 480px) { 
-    
+
+
+img.course-completed {
+    width: 100%;
+}
+
+img.js-badge {
+    width: 50%;
+    display: block;
+}
+
+.achievements, .card-skills {
+    margin-top:25px;
 }
